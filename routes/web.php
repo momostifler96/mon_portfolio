@@ -1,7 +1,8 @@
 <?php
 
-use App\Http\Controllers\MailController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MailController;
+use App\Http\Controllers\siteController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,8 +21,8 @@ Route::get('/', function () {
 Route::get('/momo', function () {
     return view('momodevAdmin');
 });
-Route::get('/projet/{id}',[MailController::class,'selectprojet'])->name('selectprojet');
-Route::get('/projetAll',[MailController::class,'projetAll'])->name('projetAll');
+Route::get('/projet/{id}',[siteController::class,'selectprojet'])->name('selectprojet');
+Route::get('/projetAll',[siteController::class,'projetAll'])->name('projetAll');
 
 Route::post('/newMail',[MailController::class,'newMail'])->name('newmail');
-Route::post('/newSite',[MailController::class,'newSite'])->name('newSite');
+Route::post('/newSite',[siteController::class,'newSite'])->name('newSite');
