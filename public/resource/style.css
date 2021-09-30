@@ -1,0 +1,535 @@
+body.body {
+    height: 100vh;
+    width: 100%;
+    background: #13243d;
+    background: url("background/thumb-1920-238870.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contact_me_modal {
+    width: 100%;
+    height: 100vh;
+    z-index: 100;
+    background: #000000a3;
+    top: -100vh;
+    transition: top 0.5s;
+}
+
+.contact_me_modl_hid {
+    top: -100vh;
+    animation: slide_top;
+
+}
+
+.contact_me_modl_show {
+    top: 0;
+    animation: slide_to_top;
+}
+
+@keyframes slide_to_top {
+    to {
+        top: -100vh;
+    }
+
+    form {
+        top: 0vh;
+    }
+}
+
+@keyframes slide_top {
+    to {
+        top: 0vh;
+    }
+
+    form {
+        top: -100vh;
+    }
+}
+
+
+.my_projets {
+    padding-top: 100px;
+}
+
+.logo_m img {
+    width: 150px;
+    height: calc(150px*40/100);
+}
+
+.nav_bar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo_m {
+    padding: 20px;
+}
+
+.my_img_1 img {
+    width: 430px;
+    height: 430px;
+}
+
+.btn_link,
+.btn_contact_me {
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border: none;
+    color: rgb(89, 89, 89);
+    background: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+.btn_link:hover {
+    color: rgb(255, 255, 255);
+
+}
+
+.btn_contact_me {
+    border: 2px solid #00b2ff;
+    color: #00b2ff;
+
+}
+
+.btn_contact_me:hover {
+    background: #00b2ff;
+    color: white;
+
+
+}
+
+p.title_dev {
+    color: white;
+    font-size: 20px;
+    height: 30px;
+    margin: 0px;
+}
+
+p.my_name {
+    font-size: 60px;
+    color: #00b2ff;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.title_contact_me {
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+
+}
+.loader {
+    position : fixed;
+    z-index: 9999;
+    background : url('icon-loader.gif') 50% 50% no-repeat;
+    top : 0px;
+    left : 0px;
+    height : 100%;
+    width : 100%;
+    cursor : wait;
+    }
+
+.contact_me_info {
+    width: 100%;
+    font-weight: 700;
+    padding: 10px;
+    font-size: 12px;
+    display: flex;
+    
+  
+}
+
+.fb_col {
+    color: rgb(8, 136, 255);
+}
+
+.lnk_col {
+    color: rgb(14, 100, 135);
+}
+
+.tw_col {
+    color: rgb(125, 192, 255);
+}
+
+.my_name p {
+    display: block;
+    display: block;
+    color: white;
+    font-size: 15vh;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.img_profil {
+    width: 18vw;
+    height: 18vw;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+}
+
+
+.btn_modal_site_view {
+    display: flex;
+    height: fit-content;
+}
+
+.my_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.back_img {
+    height: 100vh;
+    backdrop-filter: blur(3px);
+    background: #00000073;
+}
+
+
+.about_me_div_pict {
+    display: flex;
+    width: 350px;
+    height: 400px;
+    justify-content: center;
+}
+
+.aboutme_t {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.title_about_me_info {
+    border: 1px solid rgb(8, 136, 255);
+    padding: 10px;
+    margin: 10px;
+}
+
+.title_about_me_info>div {
+    margin: 8px 0px;
+}
+
+.select_ted {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+
+
+.about_me_div_txt {
+
+    padding: 10px;
+    backdrop-filter: blur(7px);
+    background: #00000073;
+}
+
+.main_my_projevt {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    backdrop-filter: blur(10px);
+    margin-top: 14px;
+    background: #0000006e;
+}
+
+.trans-trasf-y {
+    transition: transform 0.5;
+}
+.site_tr_cotainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.inf_site_tr {
+    color: white;
+    margin: 0px 10px;
+}
+
+.zi-10 {
+    z-index: 10;
+}
+
+.zi-15 {
+    z-index: 15;
+}
+
+.zi-20 {
+    z-index: 20;
+}
+
+.zi-25 {
+    z-index: 25;
+}
+
+.slide_selected {
+    box-shadow: 0px 0px 6px 3px rgb(0, 123, 255);
+}
+
+@media screen and (max-width:500px) {
+
+    .logo_m img {
+        width: 80px;
+        height: calc(80px*40/100);
+    }
+    .element_img img {
+        width: 100%;
+        height: fit-content;
+    }
+    .div_project_caroucel{
+        flex-wrap: wrap;
+        overflow: scroll;
+    height: 65vh;
+    }
+    p.title_dev {
+        color: white;
+        font-size: 11px;
+        height: 30px;
+        margin: 0px;
+
+    }
+    .site_tr_cotainer.pos-abs-center-x-y.zi-10.pd-15px.back-noir-s3 {
+        width: 100%;
+    }
+    .mg-x-20px.img_selct_car.img_min_modal_site_view {
+        display: flex;
+        justify-content: space-between;
+    }
+    img.wd-105px.hg-65px {
+        width: 18vw;
+        height: 10vw;
+    }
+    .inf_site_tr {
+        font-size: 8px;
+    }
+    .dis-flx.slider_s1 {
+        flex-direction: column-reverse;
+    }
+    
+    .btn_modal_site_view button {
+        width: 13vw;
+        font-size: 9px;
+        padding: 5px;
+    }
+    .wd-800px.pd-x-10px.pd-y-3px.justif-between {
+        padding: 0;
+    }
+    .logo_modal_site_view img {
+        width: 20px;
+        height: 20px;
+    }
+    .nav_bar_project{
+        font-size: 5px;
+        margin: 5px 0px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    p.col-blanc.ft-siz-60px.mg-10px {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    p.my_name {
+        font-size: 33px;
+        color: #00b2ff;
+        font-weight: 700;
+        margin: 0px;
+        text-align: center;
+    }
+
+    .element_img {
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    div#slider_main_cont {
+        width: 95vw;
+        height: calc(95vw*60/100);
+    }
+    .element.mg-x-10px {
+        display: flex;
+        width: 80px;
+        height: 90px;
+        flex-direction: column;
+        font-size: 5px;
+        margin: 9px;
+    }
+
+    .div_pro_caroucel {
+        flex-wrap: wrap;
+        margin: 8px;
+        justify-content: center;
+    }
+
+    .img_profil {
+        width: 50vw;
+        height: 50vw;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+    }
+
+    .nav_bar {
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo_m {
+        padding: 10px;
+        width: min-content;
+    }
+
+    .btn_link,
+    .btn_contact_me {
+        box-sizing: border-box;
+        padding: 5px 10px;
+        border: none;
+        color: rgb(89, 89, 89);
+        background: none;
+        font-size: 8px;
+        font-weight: 700;
+        width: 60px;
+        margin:0px 5px;
+    }
+
+    .btn_contact_me {
+        border: 2px solid #00b2ff;
+        color: #00b2ff;
+        WIDTH: 79PX;
+    }
+
+    .logo_m img {
+        width: 80px;
+        height: calc(80px*40/100);
+    }
+
+    .nav_link {
+        width: 100%;
+        height: 0vh;
+    }
+
+    .title_about_me{
+        font-size: 20px;
+    }
+
+    .about_me_text.ft-siz-15px.pd-10px {
+        font-size: 9px;
+        padding: 2px;
+    }
+    .back-blanc-flout.contact_me_modal_element.align-center-x-y.pd-20px.bord-rad-10px {
+        width: 80%;
+    }
+
+    .about_me_div_pict {
+        display: flex;
+        width: 110px;
+        height: 110px;
+        justify-content: center;
+        margin: 20px;
+    }
+    .ft-siz-20px {
+        font-size: 15px;
+    }
+    .ft-siz-15px {
+        font-size: 11px;
+    }
+    .ft-siz-10px {
+        font-size: 7px;
+    }
+
+    .about_me_div.flx-full.full-screen.align-center-x-y {
+        padding-top: 10vw;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .title_about_me_info>div {
+        margin: 1px 0px;
+    }
+
+    span.ft-siz-15px.dis-in-bloc.wd-48pc {
+        font-size: 10px;
+    }
+
+    .about_me_div_pict img {
+        width: 70px;
+        height: 110px;
+    }
+
+    .about_me_div_txt {
+        padding: 10px;
+        backdrop-filter: blur(7px);
+        width: 90vw;
+    }
+
+    .aboutme_t {
+        font-size: 12px;
+    }
+
+    button.btn_bleu.btn_about_me_portfolio.wd-150px.hg-35px {
+        width: 28vw;
+        height: 27px;
+        font-size: 3vw;
+    }
+
+    p.btn_hid_contact_me.col-blanc.ft-wd-bolder.mg-y-10px {
+        font-size: 12px;
+    }
+
+    .wd-100pc.no-select button {
+        width: 80px;
+        font-size: 11px;
+        height: min-content;
+    }
+
+    .wd-100pc.no-select>div {
+        width: inherit;
+        margin: 5px 0px;
+    }
+
+    .wd-100pc.no-select label {
+        font-size: 12px;
+    }
+
+    .wd-100pc.no-select textarea {
+        width: inherit;
+        height: 100px;
+    }
+
+    .wd-100pc.no-select>div>input {
+        width: inherit;
+        height: 22px;
+        font-size: 12px;
+    }
+
+    .contact_me_info {
+        width: 100%;
+        font-weight: 700;
+        padding: 10px;
+        font-size: 8px;
+    }
+
+    .title_contact_me {
+        font-weight: 700;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+
+    .contact_me_modal_element.align-center-x-y.wd-400px {
+        width: 80%;
+    }
+
+
+
+}
