@@ -12,6 +12,40 @@
     <meta name="token" content="{{csrf_token()}}">
     <script src="{{asset('resource/fontawesome/js/all.js')}}" defer></script>
     <title>Momoledev</title>
+    <style>
+        .site_tr_cotainer {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .inf_site_tr {
+            color: white;
+            margin: 0px 10px;
+        }
+
+        .zi-10 {
+            z-index: 10;
+        }
+
+        .zi-15 {
+            z-index: 15;
+        }
+
+        .zi-20 {
+            z-index: 20;
+        }
+
+        .zi-25 {
+            z-index: 25;
+        }
+
+        .slide_selected {
+            box-shadow: 0px 0px 6px 3px rgb(0, 123, 255);
+        }
+
+    </style>
+
+
 </head>
 
 <body class="body pos-rel">
@@ -23,7 +57,7 @@
     <div id="projet_view_modal" class="pos-abs cacher full-screen ft-siz-13pxalign-center-x-y zi-10">
     </div>
     {{--     modal de connection denvoie de mail--}}
-    <div class="contact_me_modal pos-fix align-center-x-y">
+  <div class="contact_me_modal pos-fix align-center-x-y">
         <div class="back-blanc-flout contact_me_modal_element align-center-x-y pd-20px bord-rad-10px">
             <form class="contact_me_modal_form flx-col align-center-x-y wd-100pc" action="/newMail" method="post">
                 @csrf
@@ -69,8 +103,7 @@
         </div>
     </div>
     </div>
-    {{--     contenu page principal
- --}}</div>
+    {{--     contenu page principal--}}</div>
     <div>
         <div class="nav_bar justif-between">
             <div class="logo_m">
@@ -83,7 +116,7 @@
                 <button class="btn_contact_me bord-rad-5px">me contactez</button>
             </div>
         </div>
-        {{--page slider --}}
+                {{--page slider --}}
 
         <div class="page_slider_main hg-100vh over-fl-hid ">
 
@@ -105,7 +138,7 @@
                     </div>
 
                 </div>
-                {{--page apropose de moi --}}
+                 {{--page apropose de moi --}}
                 <div class="about_me_div flx-full full-screen align-center-x-y">
                     <div class="about_me_div_pict">
                         <img src="{{asset("resource/D5C35F86-F7BE-469E-AD7A-E5890296E20AL0001.jpg")}}" alt="">
@@ -161,7 +194,7 @@
 
                     </div>
                 </div>
-                {{--page mes projet --}}
+                 {{--page mes projet --}}
                 <div class="my_projets flx-full full-screen ">
                     <div class="">
                         <div class="my_project-title_div ">

@@ -11,7 +11,7 @@ class siteController extends Controller
 /*      controller pour ajouter nouveau projet a mon portfolio
     */  public function newSite(Request $request)
 
-            {  
+            {
             
             $nombre_foto = $request->nombre_foto;
             $image = PhotoRequestLoader::load($request,"image_","image/image_projet/",$nombre_foto);

@@ -89,8 +89,6 @@ $(".contact_me_modal_form").submit((e) => {
     data.append("subject", subject);
     data.append("message", message);
 
-
-
     function cls_modal() {
         $('.contact_me_modal').removeClass('contact_me_modl_show');
         $('.contact_me_modal').addClass('contact_me_modl_hid');
