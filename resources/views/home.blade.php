@@ -131,9 +131,9 @@
                         <p class="title_dev"><strong>developper web full stack et aplication mobile</strong> </p>
                         <div class="my_social_page col-blanc ft-siz-30px">
 
-                            <a href="" class="fb_col"><i class="fab fa-facebook-square"></i></a>
-                            <a href="" class="lnk_col"><i class="fab fa-linkedin"></i></a>
-                            <a href="" class="tw_col"><i class="fab fa-twitter-square"></i></a>
+                            <a href="https://web.facebook.com/Momostifler67" class="fb_col"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://www.linkedin.com/in/mohamed-doumbia-6b0585222/" class="lnk_col"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://twitter.com/mohamed70098129"" class="tw_col"><i class="fab fa-twitter-square"></i></a>
                         </div>
                     </div>
 
@@ -181,14 +181,14 @@
                                         contact : </span> <strong>freelance / Cdd</strong> </span></div>
                             <div><span class="ft-siz-13px dis-in-bloc wd-48pc"><span
                                         class="ft-siz-20px aboutme_t">Linkedine
-                                        :</span>Doumbia Mohamed</span> <span
+                                        :</span><a href="https://www.linkedin.com/in/mohamed-doumbia-6b0585222/">Doumbia Mohamed</a> </span> <span
                                     class="ft-siz-13px dis-in-bloc wd-48pc"><span class="ft-siz-20px aboutme_t">Facebook
-                                        :</span>Doumbia Mohamad</span></div>
+                                        :</span><a href="https://web.facebook.com/Momostifler67">Doumbia Mohamad</a> </span></div>
                             <div><span class="ft-siz-13px dis-in-bloc wd-48pc"><span
                                         class="ft-siz-20px aboutme_t">Instagram
-                                        :</span>Doumbia Mohamed</span> <span
+                                        :</span> <a href="https://www.instagram.com/momo_stifler_1/">Doumbia Mohamed</a></span> <span
                                     class="ft-siz-13px dis-in-bloc wd-48pc"><span class="ft-siz-20px aboutme_t">Tweeter
-                                        :</span>Doumbia Mohamad</span></div>
+                                        :</span> <a href="https://twitter.com/mohamed70098129">@mohamed70098129</a></span></div>
 
                         </div>
 
